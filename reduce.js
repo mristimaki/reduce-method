@@ -16,7 +16,8 @@
     // "Total:", acc + curr
   // );
   // return acc + curr;
-// });
+// }, 0);  // if we specify where it should start (at 0), it will execute 5 times
+// however if we would to put in number 10, it would start at 10 and give us a total of 20 instead of 10 
 // console.log(sum);
 
 // Summing an array of numbers:
